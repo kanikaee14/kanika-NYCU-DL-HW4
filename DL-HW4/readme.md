@@ -1,12 +1,17 @@
-# NYCU Computer Vision 2025 Spring HW4
+# NYCU Computer Vision 2026 Spring HW4
 
-StudentID: 111550089
+StudentID: 314540012
 
-Name: 李宗諺
+Name: Kanika
 
 ## Introduction
 
-In this assignment, we explored the PromptIR architecture to tackle image restoration. PromptIR solves blind image restoration, utilizing learnable prompts to guide the restoration process for various degradation types. I followed the PromptIR pipeline and explored modifications to enhance its performance for dual-degradation image restoration tasks involving both rain and snow. This included varying the prompt length within the PromptGenBlock modules to investigate its impact on restoration quality for specific degradation types. I also enhanced the loss function by combining L1, PSNR, SSIM, and VGG perceptual losses, and implemented model ensemble techniques to boost the eventual performance. The model was trained to restore images degraded by rain and snow, and a PSNR score of 32.11 on the public test dataset was achieved.
+In this assignment, I worked with the PromptIR architecture for image restoration. PromptIR addresses blind image restoration by using learnable prompts that help guide the model in handling different types of degradations. Following the PromptIR pipeline, we experimented with several modifications to improve performance on a dual-degradation setting involving both rain and snow.
+
+Specifically, I adjusted the prompt length in the PromptGenBlock modules to study its effect on restoration quality across different degradation types. We also improved the training objective by combining multiple loss functions, including L1, PSNR-based, SSIM, and VGG perceptual losses, to better balance pixel accuracy and perceptual quality. In addition, we applied model ensembling to further enhance the final results.
+
+The model was trained to restore images affected by rain and snow, achieving a peak PSNR of 32.11 on the public test dataset.
+
 
 ## How to install
 
@@ -107,4 +112,3 @@ python ensemble.py \
 
 ## Performance Snapshot
 
-![image](https://github.com/user-attachments/assets/ccd37d3e-1695-482d-86f2-0f1f20a5f074)
