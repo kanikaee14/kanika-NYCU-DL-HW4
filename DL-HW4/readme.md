@@ -1,4 +1,4 @@
-<img width="985" height="37" alt="Screenshot 2026-06-02 at 10 58 55 PM" src="https://github.com/user-attachments/assets/9b5eda42-9cdd-455c-976c-674a3bd3a9d5" />
+
 # NYCU Computer Vision 2026 Spring HW4
 
 StudentID: 314540012
@@ -113,3 +113,4 @@ python ensemble.py \
 
 ## Performance Snapshot
 
+<img width="985" height="37" alt="Screenshot 2026-06-02 at 10 58 55 PM" src="https://github.com/user-attachments/assets/9b5eda42-9cdd-455c-976c-674a3bd3a9d5" />
