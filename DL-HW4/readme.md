@@ -11,7 +11,7 @@ In this assignment, I worked with the PromptIR architecture for image restoratio
 
 Specifically, I adjusted the prompt length in the PromptGenBlock modules to study its effect on restoration quality across different degradation types. We also improved the training objective by combining multiple loss functions, including L1, PSNR-based, SSIM, and VGG perceptual losses, to better balance pixel accuracy and perceptual quality. In addition, we applied model ensembling to further enhance the final results.
 
-The model was trained to restore images affected by rain and snow, achieving a peak PSNR of 32.11 on the public test dataset.
+The model was trained to restore images affected by rain and snow, achieving a peak PSNR of 26.87 on the public test dataset.
 
 
 ## How to install
