@@ -24,7 +24,7 @@ conda env create -f environment.yml
 Then, activate the environment by running
 
 ```bash
-conda activate dlcv_lab4
+conda activate hw4
 ```
 
 ## How to train
